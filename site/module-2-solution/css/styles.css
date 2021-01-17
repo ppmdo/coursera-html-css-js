@@ -4,13 +4,13 @@
 }
 
 body {
-    background-color: #393939;
-    color: white;
+    color: black;
     font-family: sans-serif;
 }
 
 h1 {
-    margin-bottom: 15px;
+    margin-bottom: 25px;
+    font-size: 1.75em;
 }
 
 p {
@@ -32,13 +32,15 @@ p {
 .card {
     border: 1px solid black;
     background-color: #252525;
-    margin: 5px;
+    margin: 10px;
+    color: white;
 }
 
 .card-header {
     background: #A52A2A;
     border: 1px solid black;
     font-weight: bold;
+    font-size: 1.25em;
     padding: 5px;
     float: right;
     color: black;
