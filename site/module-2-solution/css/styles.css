@@ -37,15 +37,16 @@ p {
 
 .card-header {
     background: #A52A2A;
-    border: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
     font-weight: bold;
     font-size: 1.25em;
     padding: 5px;
-    float: right;
     color: black;
     text-align: center;
     min-width: 150px;
     position: relative;
+    float: right;
 }
 
 .card-content {
