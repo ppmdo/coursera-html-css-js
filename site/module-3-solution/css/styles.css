@@ -1,0 +1,48 @@
+/* Main Title and Content */
+#main-title {
+    margin-top: 0;
+    margin-bottom: 20px;
+
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+#main-content {
+    background: #a7a7a7;
+    padding: 10px 15px;
+    min-height: 1000px;
+}
+
+#main-content h4 {
+    font-weight: bold;
+}
+/* End Main Content */
+
+/* Navbar */
+a:focus, .navbar-default .navbar-nav > li > a:hover {
+    background: #c7c7c7;
+    font-weight: bold;
+}
+
+.navbar-nav > li > hr {
+    width: 95%;
+    margin: 0 auto;
+    border: #d2d2d2 solid 1px;
+}
+/* End Navbar */
+
+/* Footer */
+footer {
+    margin: 20px 0;
+}
+/* End Footer */
+
+@media (max-width: 767px) {
+
+    #main-content {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+}
+
